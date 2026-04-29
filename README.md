@@ -84,8 +84,13 @@ Data Access Layer  →  SQL Server stored procedures, triggers
 
 ## Screenshots
 
-> *(Add UI screenshots of payroll screen, attendance module, and Power BI dashboard here)*
+<img width="454" height="275" alt="image" src="https://github.com/user-attachments/assets/e7b0e853-6b51-4f8e-b6ef-161f6f94749e" />
 
+<img width="454" height="270" alt="image" src="https://github.com/user-attachments/assets/78c945eb-6a2c-4d93-9a84-f344c2628ad6" />
+
+<img width="454" height="272" alt="image" src="https://github.com/user-attachments/assets/9e1dae07-1624-4fd0-b18d-cbe632f4d6b8" />
+
+<img width="454" height="270" alt="image" src="https://github.com/user-attachments/assets/693a91c9-1f4e-4bca-aabe-f83ada3ccd9f" />
 ---
 
 ## Academic Note
