@@ -1,5 +1,10 @@
 # HR Management System (Unilever Case Study)
 
+![Academic Project](https://img.shields.io/badge/Type-Academic%20Project-blue)
+![SQL Server](https://img.shields.io/badge/SQL-Server-CC2927?logo=microsoftsqlserver&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-.NET-512BD4?logo=dotnet&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power-BI-F2C811?logo=powerbi&logoColor=black)
+
 > **Academic course project** — End-to-end simulation of an HR management system for a multinational enterprise environment, covering business analysis, database design, and application development.
 
 ---
@@ -13,7 +18,7 @@ Manual HR workflows create bottlenecks in recruitment processing, contract track
 ## Functional Scope
 
 | Module | Key Capabilities |
-|---|---|
+| --- | --- |
 | Recruitment | Job posting, candidate tracking, offer management |
 | Employee Contracts | Contract creation, renewal alerts, expiry automation |
 | Timekeeping & Attendance | Check-in/out logging, shift management |
@@ -29,12 +34,12 @@ Manual HR workflows create bottlenecks in recruitment processing, contract track
 
 This project follows a structured BA methodology:
 
-- **Business Requirements Document (BRD)**
-- **BPMN AS-IS / TO-BE Process Models** — 8 modules
-- **User Stories & Use Cases**
-- **SWOT Analysis**
-- **Traceability Matrix** — requirements ↔ system features
-- **Entity Relationship Diagram (ERD)** — 20+ tables
+* **Business Requirements Document (BRD)**
+* **BPMN AS-IS / TO-BE Process Models** — 8 modules
+* **User Stories & Use Cases**
+* **SWOT Analysis**
+* **Traceability Matrix** — requirements ↔ system features
+* **Entity Relationship Diagram (ERD)** — 20+ tables
 
 > Full documentation available in [Google Drive](https://drive.google.com/drive/folders/1d4izAH_1GSmGq65p26CTJyKuMVViXpJ_)
 
@@ -43,7 +48,7 @@ This project follows a structured BA methodology:
 ## Technology Stack
 
 | Layer | Technology |
-|---|---|
+| --- | --- |
 | Database | SQL Server / SSMS |
 | Application | C# .NET WinForms (3-tier architecture) |
 | Reporting | Power BI |
@@ -53,10 +58,10 @@ This project follows a structured BA methodology:
 
 ## Key Technical Features
 
-- **Payroll automation** via stored procedures
-- **Audit logging** via SQL triggers on sensitive tables
-- **Auto contract-expiry alert** triggered at configurable thresholds
-- **RBAC access control** — permissions scoped by role (Admin, HR Manager, Staff)
+* **Payroll automation** via stored procedures
+* **Audit logging** via SQL triggers on sensitive tables
+* **Auto contract-expiry alerts** triggered at configurable thresholds
+* **RBAC access control** — permissions scoped by role (Admin, HR Manager, Staff)
 
 ---
 
@@ -73,11 +78,9 @@ Data Access Layer  →  SQL Server stored procedures, triggers
 ## Repository Structure
 
 ```
-/Forms          → WinForms UI screens
-/Services       → Business logic layer
-/SQL            → Schema scripts, stored procedures, triggers
-/docs           → BRD, BPMN diagrams, ERD (excerpts)
-/screenshots    → Application UI screenshots
+/QLNS                           → C# WinForms application source
+/UnileverHRM_MASTER_v4_FINAL.sql → Full SQL schema, procedures, triggers
+README.md
 ```
 
 ---
@@ -91,12 +94,23 @@ Data Access Layer  →  SQL Server stored procedures, triggers
 <img width="454" height="272" alt="image" src="https://github.com/user-attachments/assets/9e1dae07-1624-4fd0-b18d-cbe632f4d6b8" />
 
 <img width="454" height="270" alt="image" src="https://github.com/user-attachments/assets/693a91c9-1f4e-4bca-aabe-f83ada3ccd9f" />
+
+---
+
+## Key Outcomes
+
+* Modeled **8 HR modules** end-to-end (Recruitment → Reporting)
+* Designed **20+ relational tables** with full referential integrity
+* Implemented **payroll automation logic** via stored procedures
+* Built **Power BI HR KPI dashboard** for recruitment, payroll & headcount analytics
+* Delivered complete BA artifact set (BRD, BPMN, User Stories, SWOT, Traceability Matrix)
+
 ---
 
 ## Academic Note
 
 This repository is an academic course project developed for portfolio and internship review purposes. It simulates a real-world enterprise scenario and does not represent work performed for or on behalf of Unilever.
 
-**Course:** Management Information Systems — University of Finance & Marketing (UFM)  
-**Period:** November – December 2025  
+**Course:** Management Information Systems — University of Finance & Marketing (UFM)
+**Period:** November – December 2025
 **Contributor:** Nguyen Anh Thu
